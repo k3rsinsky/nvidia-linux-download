@@ -1,4 +1,4 @@
-Ubuntu / Debian / Linux Mint
+# Ubuntu / Debian / Linux Mint
 
 On newer versions (22.04+, 13+), everything can be done in just a couple of commands.
 
@@ -16,7 +16,7 @@ bash
 sudo ubuntu-drivers list
 sudo apt install nvidia-driver-550
 
-Arch Linux / Manjaro
+# Arch Linux / Manjaro
 
 Things are strict here. Installing the driver directly from the NVIDIA website is strictly forbidden, as it can break Pacman.
 bash
