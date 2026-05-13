@@ -4,11 +4,11 @@ On newer versions (22.04+, 13+), everything can be done in just a couple of comm
 
 Automatic installation (recommended):
 bash
-
+```
 sudo ubuntu-drivers autoinstall && sudo reboot
 
 Or use the graphical "Additional Drivers" application.
-
+```
 Manual selection (for professionals):
 Find the recommended version and install it:
 bash
@@ -20,11 +20,11 @@ sudo apt install nvidia-driver-550
 
 Things are strict here. Installing the driver directly from the NVIDIA website is strictly forbidden, as it can break Pacman.
 bash
-
+```
 sudo pacman -S nvidia nvidia-utils
 # For laptop owners with Optimus:
 sudo pacman -S nvidia-prime
-
+```
 Astra Linux / Red OS (Russian distributions)
 
 For these distributions, the process is standard via apt, but requires manually disabling the open-source nouveau driver.
