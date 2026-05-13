@@ -31,11 +31,15 @@ For these distributions, the process is standard via apt, but requires manually 
 bash
 
 # 1. Install dependencies
+```
 sudo apt update && sudo apt install build-essential linux-headers-$(uname -r)
-
+```
 # 2. Blacklist nouveau
+```
 echo -e "blacklist nouveau\noptions nouveau modeset=0" | sudo tee -a /etc/modprobe.d/blacklist.conf
 sudo update-initramfs -u
-
+```
 # 3. Reboot and install via apt
+```
 sudo apt install nvidia-driver
+```
