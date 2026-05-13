@@ -12,10 +12,10 @@ Or use the graphical "Additional Drivers" application.
 Manual selection (for professionals):
 Find the recommended version and install it:
 bash
-
+```
 sudo ubuntu-drivers list
 sudo apt install nvidia-driver-550
-
+```
 # Arch Linux / Manjaro
 
 Things are strict here. Installing the driver directly from the NVIDIA website is strictly forbidden, as it can break Pacman.
