@@ -6,9 +6,9 @@ Automatic installation (recommended):
 bash
 ```
 sudo ubuntu-drivers autoinstall && sudo reboot
-
-Or use the graphical "Additional Drivers" application.
 ```
+Or use the graphical "Additional Drivers" application.
+
 Manual selection (for professionals):
 Find the recommended version and install it:
 bash
